@@ -10,8 +10,11 @@
 
 #### 软件架构
 1 : 核心框架：Spring Boot + Spring Cloud Alibaba
+
 2 : RM 框架：tk.mybatis 简化 MyBatis 开发
+
 3 : 数据库连接池：Alibaba Druid
+
 4 : 数据库缓存：Redis Sentinel
 5 : 消息中间件：RocketMQ
 6 : 接口文档引擎：Swagger2 RESTful 风格 API 文档生成
