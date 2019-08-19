@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.roc</groupId>
+    <artifactId>Ali-cloud-roc</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- 基础模块 start -->
+        <module>base-dependencies</module>
+        <module>base-commons</module>
+        <module>base-database-generator</module>
+        <!-- 基础模块 end -->
+
+        <!-- 业务模块 start -->
+        <!-- 业务模块 提供者 start -->
+        <module>business-provider</module>
+        <!-- 业务模块 提供者 start -->
+        <!-- 业务模块 提供者 start -->
+        <module>business-consumer</module>
+        <!-- 业务模块 提供者 start -->
+        <!-- 业务模块 end -->
+
+        <!-- 云组件模块 start-->
+        <module>cloud-gateway</module>
+        <!-- 云组件模块 end-->
+
+    </modules>
+
+</project>

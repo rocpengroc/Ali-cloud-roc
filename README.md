@@ -9,14 +9,26 @@
 5 : 后期添加docker+k8s 
 
 #### 软件架构
-软件架构说明
+1 : 核心框架：Spring Boot + Spring Cloud Alibaba
+2 : RM 框架：tk.mybatis 简化 MyBatis 开发
+3 : 数据库连接池：Alibaba Druid
+4 : 数据库缓存：Redis Sentinel
+5 : 消息中间件：RocketMQ
+6 : 接口文档引擎：Swagger2 RESTful 风格 API 文档生成
+7 : 全文检索引擎：ElasticSearch
+8 : 分布式链路追踪：SkyWalking
+9 : 分布式文件系统：Alibaba OSS
+10: 分布式系统网关：Spring Cloud Gateway
+11: 分布式协调系统：Spring Cloud Alibaba Nacos Server
+12: 分布式配置中心：Spring Cloud Alibaba Nacos Config
+13: 分布式熔断降级：Spring Cloud Alibaba Sentinel
 
 
 #### 安装教程
+docker-compose 安装
+1 : nacos
+2 : 
 
-1. xxxx
-2. xxxx
-3. xxxx
 
 #### 使用说明
 
