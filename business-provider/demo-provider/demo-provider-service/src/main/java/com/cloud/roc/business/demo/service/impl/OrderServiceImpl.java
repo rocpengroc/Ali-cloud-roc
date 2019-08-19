@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author rocpeng
+ *
+ * 这里我将实现类直接添加了 controller 注解
+ * 简化了提供者的 controller 和 impl的写法
+ * 这里还未做分布式事务的处理,不知道会不会有影响,有待后期验证
+ *
  */
 @RequestMapping("demo-provider")
 @RestController
