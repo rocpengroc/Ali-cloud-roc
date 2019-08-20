@@ -61,7 +61,13 @@
         <!-- Projects Begin -->
         <dependency>
             <groupId>com.roc</groupId>
-            <artifactId>base-common-consumer</artifactId>
+            <artifactId>base-commons</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.roc</groupId>
+            <artifactId>demo-provider-api</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>

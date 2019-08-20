@@ -6,7 +6,7 @@
 2 : docker 部署
 3 : 后期添加持续开发
 4 : 后期添加持续部署
-5 : 后期添加docker+k8s 
+5 : 后期添加docker+k8s
 
 #### 软件架构
 1 : 核心框架：Spring Boot + Spring Cloud Alibaba √   
@@ -22,12 +22,29 @@
 11: 分布式协调系统：Spring Cloud Alibaba Nacos Server √   
 12: 分布式配置中心：Spring Cloud Alibaba Nacos Config √  
 13: 分布式熔断降级：Spring Cloud Alibaba Sentinel √   
+ 
 
+###代码版本介绍  
+
+|git版本/架构       | simple |  master |
+|:----------------|--------:|:-------:|
+|tk.mybatis       |  ×      |   √     |
+|Alibaba Druid    |  √      |   √     |
+|Redis Sentinel   |  ×      |   √     |
+|RocketMQ         |  ×      |   √     |
+|Swagger2 RESTful |  √      |   √     |
+|ElasticSearch    |  √      |   √     |
+|SkyWalking       |  √      |   √     |
+|Alibaba OSS      |  ×      |   √     |
+|Gateway          |  √      |   √     |
+|Nacos Server     |  √      |   √     |
+|Nacos Config     |  √      |   √     |
+|Sentinel         |  √      |   √     |
 
 #### 安装教程
 docker-compose 安装
 1 : nacos
-2 : 
+2 : ElasticSearch
 
 
 #### 使用说明
