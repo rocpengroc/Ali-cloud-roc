@@ -63,7 +63,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.cloud.roc.gateway.ServiceGatewayApplication</mainClass>
+                    <mainClass>com.cloud.roc.gateway.GateWayApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
